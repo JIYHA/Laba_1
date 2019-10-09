@@ -9,7 +9,7 @@ namespace Задание__1
             Console.WriteLine("Присвоение");
             string str = Console.ReadLine();
             double x = Convert.ToDouble(str);
-            int d = (int)(x - Math.Round(x)) * 10;
+            int d = (int)(x - (int)x) * 10;
             Console.WriteLine("d=" + d);          
         }
     }
